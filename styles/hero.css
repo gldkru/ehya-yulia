@@ -1,0 +1,52 @@
+.hero {
+	width: 1280px;
+	background: #E8EAE9 url('../images/hero-background.jpg') center no-repeat;
+	background-size: cover;
+	border-radius: 8px;
+	padding: 60px 0;
+	font-size: 20px;
+	line-height: 36px;
+	color: #5A7184;
+	margin: 0 auto 50px;
+	min-height: 700px;
+}
+
+.hero p,
+.hero h1 {
+	margin-top: 0;
+	margin-bottom: 28px;
+}
+
+.hero-content h1 {
+	font-size: 56px;
+	line-height: 68px;
+}
+
+.hero-action {
+	margin-top: 52px;
+}
+
+.advantages {
+	display: flex;
+	margin-top: 48px;
+}
+
+.advantage-item {
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #183B56;
+}
+
+.advantage-item-icon {
+	padding: 7px;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #BECFE6;
+	border-radius: 12px;
+	margin-right: 8px;
+	line-height: 1;
+}
+
