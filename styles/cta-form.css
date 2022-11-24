@@ -45,6 +45,7 @@
 	border: none;
 	background: transparent;
 	color: var(--black);
+	padding: 0 12px;
 }
 
 .form-subscribe__input:focus {
@@ -56,8 +57,14 @@
 }
 
 .form-subscribe__icon {
-	padding: 0 12px;
+	padding-left: 16px;
 	display: flex;
 	align-items: center;
 	flex-shrink: 0;
+	order: -1;
+	color: var(--black);
+}
+
+.form-subscribe__input:focus + .form-subscribe__icon {
+	color: var(--blue);
 }
