@@ -1,0 +1,63 @@
+.cta-form {
+	padding: 100px 0;
+	background: var(--blue);
+	color: #fff;
+}
+
+.cta-form__content {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.cta-form__content > *:not(:last-child) {
+	margin-bottom: 14px;
+}
+
+.cta-form__title {
+	font-family: var(--font-secondary);
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: 0.2px;
+}
+
+.cta-form__form {
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.form-subscribe {
+	width: 100%;
+}
+
+.form-subscribe__content {
+	display: flex;
+	background: #FFFFFF;
+	border: 1px solid #C3CAD9;
+	border-radius: 8px;
+	padding: 4px;
+}
+
+.form-subscribe__input {
+	flex-grow: 1;
+	border: none;
+	background: transparent;
+	color: var(--black);
+}
+
+.form-subscribe__input:focus {
+	outline: none !important;
+}
+
+.form-subscribe__input::placeholder {
+	color: #959EAD;
+}
+
+.form-subscribe__icon {
+	padding: 0 12px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
