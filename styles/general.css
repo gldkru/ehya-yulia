@@ -5,7 +5,9 @@
 	--black: #183B56;
 }
 
-* {
+*,
+*:before,
+*:after {
 	box-sizing: border-box;
 }
 
