@@ -1,0 +1,33 @@
+.products {
+	/* display: flex; */
+}
+
+.product {
+	background: #ededed;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+.product__title {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 576px) {
+	.product {
+		margin-bottom: 20px;
+	}
+
+	.product__title {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.product {
+		margin-bottom: 30px;
+	}
+
+	.product__title {
+		font-size: 18px;
+	}
+}
