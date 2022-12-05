@@ -13,7 +13,7 @@ Large
 Extra large
 ≥1200px */
 
-/* .container {
+.container {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -47,9 +47,10 @@ Extra large
 	.container {
 		max-width: 1140px;
 	}
-}*/
+}
 
-.container {
+/* .container {
+	width: 100%;
 	max-width: 1140px;
 	margin: 0 auto;
 }
@@ -62,7 +63,7 @@ Extra large
 
 @media screen and (max-width: 991px) {
 	.container {
-		max-width: 720px;
+		max-width: 670px;
 	}
 }
 
@@ -76,7 +77,7 @@ Extra large
 	.container {
 		max-width: 100%;
 	}
-}
+} */
 
 .row {
 	--gutter: 10px;

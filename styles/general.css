@@ -52,6 +52,7 @@ p {
 	text-decoration: none;
 	padding: 0 23px;
 	border: 2px solid transparent;
+	background: transparent;
 }
 
 .btn_outline {
@@ -84,6 +85,10 @@ p {
 .btn_large {
 	height: 56px;
 	padding: 0 32px;
+}
+
+.btn_icon {
+	padding: 0 12px;
 }
 
 .tag {

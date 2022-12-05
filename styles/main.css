@@ -1,8 +1,11 @@
 @import 'general.css';
 
+/* Tools */
 @import 'grid.css';
 @import 'checkbox.css';
+@import 'order.css';
 
+/* Block */
 @import 'header.css';
 @import 'page.css';
 @import 'footer.css';
