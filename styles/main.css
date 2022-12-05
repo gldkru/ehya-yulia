@@ -1,15 +1,15 @@
 @import 'general.css';
 
 /* Tools */
-@import 'grid.css';
-@import 'checkbox.css';
-@import 'order.css';
+@import './tools/grid.css';
+@import './tools/checkbox.css';
+@import './tools/order.css';
+@import './tools/page.css';
 
 /* Block */
-@import 'header.css';
-@import 'page.css';
-@import 'footer.css';
+@import './blocks/header.css';
+@import './blocks/footer.css';
 
-@import 'hero.css';
-@import 'cta-form.css';
-@import 'product.css';
+@import './blocks/hero.css';
+@import './blocks/cta-form.css';
+@import './blocks/product.css';
