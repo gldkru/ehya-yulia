@@ -5,6 +5,7 @@
 @import './tools/checkbox.css';
 @import './tools/order.css';
 @import './tools/page.css';
+@import './tools/display.css';
 
 /* Block */
 @import './blocks/header.css';

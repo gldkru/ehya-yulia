@@ -1,6 +1,6 @@
 .header-main {
-	height: 100px;
-	margin-bottom: 36px;
+	height: 64px;
+	margin-bottom: 24px;
 	display: flex;
 	align-items: center;
 }
@@ -40,4 +40,16 @@
 	display: flex;
 	align-items: center;
 	height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.header-main {
+		margin-bottom: 36px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.header-main {
+		height: 100px;
+	}
 }

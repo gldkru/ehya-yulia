@@ -18,6 +18,7 @@ Extra large
 	margin: 0 auto;
 }
 
+/* only xs */
 @media screen and (max-width: 575px) {
 	.container {
 		padding-left: 15px;
@@ -39,7 +40,7 @@ Extra large
 
 @media screen and (min-width: 992px) {
 	.container {
-		max-width: 960px;
+		max-width: 920px;
 	}
 }
 
